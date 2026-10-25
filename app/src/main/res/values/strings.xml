@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inventario Pulpería</string>
+    <string name="tab_products">Productos</string>
+    <string name="tab_movements">Movimientos</string>
+    <string name="tab_summary">Resumen</string>
+
+    <!-- Products Fragment -->
+    <string name="search_hint">Buscar por nombre o código de barras...</string>
+    <string name="add_product">Agregar Producto</string>
+    <string name="edit_product">Editar Producto</string>
+    <string name="new_product">Nuevo Producto</string>
+    <string name="no_products">No hay productos registrados.</string>
+    <string name="confirm_delete_title">¿Eliminar producto?</string>
+    <string name="confirm_delete_msg">¿Estás seguro de que deseas eliminar "%s"? Esta acción también eliminará sus movimientos asociados.</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_delete">Eliminar</string>
+
+    <!-- Product Fields -->
+    <string name="label_product_name">Nombre del producto *</string>
+    <string name="label_price">Precio unitario (L.) *</string>
+    <string name="label_stock">Stock actual *</string>
+    <string name="label_barcode">Código de barras (manual)</string>
+    <string name="label_min_stock">Stock mínimo de alerta *</string>
+
+    <!-- Movements Fragment -->
+    <string name="title_register_movement">Registrar Movimiento</string>
+    <string name="label_select_product">Seleccionar Producto *</string>
+    <string name="label_type">Tipo de Movimiento</string>
+    <string name="type_entrada">Entrada (+)</string>
+    <string name="type_salida">Salida (-)</string>
+    <string name="label_qty">Cantidad *</string>
+    <string name="btn_register_movement">Registrar Movimiento</string>
+    <string name="title_movement_history">Historial de Movimientos</string>
+    <string name="no_movements">No hay movimientos registrados.</string>
+    <string name="err_insufficient_stock">¡Stock insuficiente! Disponible: %1$d, Solicitado: %2$d.</string>
+    <string name="alert_low_stock_title">¡Alerta de Stock Mínimo!</string>
+    <string name="alert_low_stock_msg">El producto "%1$s" ha alcanzado o superado el nivel mínimo de stock.\nStock actual: %2$d | Stock mínimo: %3$d</string>
+
+    <!-- Summary Fragment -->
+    <string name="title_summary">Resumen del Inventario</string>
+    <string name="label_total_inventory_value">Valor Total del Inventario</string>
+    <string name="label_total_products">Total Productos: %d</string>
+    <string name="label_low_stock_count">Stock Bajo: %d</string>
+    <string name="title_top_5">Top 5 Productos con Mayor Valor</string>
+    <string name="title_low_stock_alerts">Alertas de Stock Mínimo</string>
+    <string name="no_low_stock_alerts">¡Excelente! No hay productos con stock bajo.</string>
+</resources>
